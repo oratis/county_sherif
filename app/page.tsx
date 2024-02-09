@@ -15,10 +15,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "你回家太晚，女朋友很生气",
-  "你炒股亏了20万，被对象发现了",
-  "女朋友吃胖了，你想和她一起减肥ᕙ(`▿´)ᕗ，然后就生气了",
-  "你在厕所拉屎，女朋友也在闹肚子，但只有一个马桶，最后女朋友拉在裤兜子里了，她很生气",
+  "你回家路上丢了1000万，找不到了，你很着急，告诉了老婆",
+  "你忘记了老婆的生日，老婆拿着刀要杀你，逼你背出全年的100多个纪念日的日期",
+  "你在厕所拉屎，老婆也在闹肚子，但只有一个马桶，最后老婆拉在裤兜子里了，她很生气",
 ];
 
 export default function Chat() {
@@ -44,7 +43,7 @@ export default function Chat() {
     <main className="flex flex-col items-center justify-between pb-40">
       <div className="absolute top-5 hidden w-full justify-between px-5 sm:flex">
         <a
-          href="https://hong.azhubaby.com"
+          href="https://babel.plus"
           target="_blank"
           className="rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
         >
@@ -55,13 +54,7 @@ export default function Chat() {
             height={36}
           />
         </a>
-        <a
-          href="https://github.com/johanazhu/honghongai"
-          target="_blank"
-          className="rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
-        >
-          <GithubIcon />
-        </a>
+        
       </div>
       {messages.length > 0 ? (
         messages.map((message, i) => (
@@ -102,7 +95,7 @@ export default function Chat() {
           <div className="flex flex-col space-y-4 p-7 sm:p-10">
             <Image
               src="/logo.png"
-              alt="哄哄模拟器logo"
+              alt="Babel Plus"
               width={40}
               height={40}
               className="h-20 w-20"
@@ -111,7 +104,8 @@ export default function Chat() {
               HongHong
             </h1>
             <p className="text-gray-500">
-              我是哄哄模拟器的开源版，基于 Gemini AI + Next.js + Vercel 构建
+              Babel.plus is a game platform which host many comunication games based on Google Gemini API. It's now under construction. Here is a sample
+              我叫它，老婆模拟器，这是模拟了你和老婆之间发生的故事，试试看
             </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">
