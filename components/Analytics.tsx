@@ -26,12 +26,3 @@ export const GoogleAnalytics = () => {
 };
 
 
-export const UmamiAnalytics = () => {
-    return (
-        <Script
-            strategy="afterInteractive"
-            data-website-id={process.env.UMAMI_ID}
-            src={`https://analytics.azhubaby.com/script.js`}
-        />
-    );
-};
