@@ -14,7 +14,7 @@ const Privacy: NextPage = () => {
                     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
                         <div className="mx-auto lg:mx-0">
                             <h1 id="faq-title" className="font-display tracking-tight text-slate-900 md:text-3xl text-xl">
-                                Terms of Service | honghongai
+                                Terms of Service
                             </h1>
                             <p className="mt-10 md:text-lg text-md text-slate-700">
                                 Posted on: January 28, 2024<br />
