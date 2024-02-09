@@ -7,6 +7,14 @@ import {
 export default function Footer() {
     return (
         <div className="text-center text-xs text-gray-400">
+            <Link
+                target="_blank"
+                href="https://oratis.ink"
+                aria-label="Oratis"
+                className="text-slate-600">
+                Oratis
+            </Link>
+            
             {" "}| {" "}
             <Link
                 target="_blank"
