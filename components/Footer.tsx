@@ -7,17 +7,10 @@ import {
 export default function Footer() {
     return (
         <div className="text-center text-xs text-gray-400">
-            <Link
-                target="_blank"
-                href="https://azhubaby.com"
-                aria-label="developer"
-                className="text-slate-600">
-                开发者
-            </Link>
             {" "}| {" "}
             <Link
                 target="_blank"
-                href="https://hong.azhubaby.com/privacy"
+                href="/privacy"
                 aria-label="Privacy"
                 className="text-slate-600">
                 Privacy
@@ -25,13 +18,13 @@ export default function Footer() {
             {" "}| {" "}
             <Link
                 target="_blank"
-                href="https://hong.azhubaby.com/terms"
+                href="/terms"
                 aria-label="Terms of Service"
                 className="text-slate-600">
                 terms
             </Link>
             <p className="mt-4 text-sm text-slate-500 sm:mt-2">
-                Copyright © hong.azhubaby.com rights reserved.
+                Copyright © babel.plus rights reserved.
             </p>
         </div>
     );
