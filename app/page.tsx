@@ -101,11 +101,13 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              HongHong
+              Babel Plus
             </h1>
             <p className="text-gray-500">
               Babel.plus is a game platform which host many comunication games based on Google Gemini API. It's now under construction. Here is a sample
-              我叫它，老婆模拟器，这是模拟了你和老婆之间发生的故事，试试看
+            </p>
+            <p className="text-gray-500">
+          我叫它，老婆模拟器，这是模拟了你和老婆之间发生的故事，试试看
             </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">
