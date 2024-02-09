@@ -5,9 +5,9 @@ import { GoogleAnalytics, UmamiAnalytics } from '@/components/Analytics'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "我是哄哄模拟器的开源版，基于 Gemini AI + Next.js + Vercel 构建",
+  title: "Babel Plus | A LLM Game Platform",
   description:
-    "这是哄哄模拟器的开源版，基于 Gemini AI + Next.js + Vercel 构建"
+    "Babel Plus host many Games based on LLM such as OpenAI chatGPT and Google Gemini"
 }
 
 export default function RootLayout({
@@ -23,27 +23,27 @@ export default function RootLayout({
       <link rel="manifest" href="/site.webmanifest"></link>
       <meta
         name="description"
-        content="哄哄模拟器开源版"
+        content="Babel Plus | A LLM Game Platform"
       />
       <meta
         property="og:description"
-        content="哄哄模拟器开源版"
+        content="Babel Plus | A LLM Game Platform"
       />
-      <meta property="og:title" content="哄哄模拟器开源版" />
+      <meta property="og:title" content="Babel Plus | A LLM Game Platform" />
       <meta
         name="twitter:description"
-        content="哄哄模拟器开源版"
+        content="Babel Plus | A LLM Game Platform"
       />
       <meta
         property="og:image"
-        content="https://hong.azhubaby.com/og-image.png"
+        content="/og-image.png"
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@JOJOhanbo" />
-      <meta name="twitter:title" content="哄哄模拟器开源版" />
-      <meta name="twitter:description" content="哄哄模拟器开源版" />
-      <meta name="twitter:image" content="https://hong.azhubaby.com/og-image.png" />
-      <meta name="twitter:creator" content="@JOJOhanbo" />
+      <meta name="twitter:title" content="Babel Plus | A LLM Game Platform" />
+      <meta name="twitter:description" content="Babel Plus | A LLM Game Platform" />
+      <meta name="twitter:image" content="/og-image.png" />
+      <meta name="twitter:creator" content="@Breaking_nerd" />
       <meta name="google-site-verification" content={process.env.GOOGLE_CONSOLE} />
       <body className={inter.className}>
         {children}
